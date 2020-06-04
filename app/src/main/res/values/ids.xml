@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ll_chat_self_change" type="id" />
+    <item name="iv_photo" type="id" />
+    <item name="tv_select_camera" type="id" />
+    <item name="tv_select_gallery" type="id" />
+</resources>
