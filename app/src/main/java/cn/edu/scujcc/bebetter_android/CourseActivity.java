@@ -14,6 +14,7 @@ public class CourseActivity extends AppCompatActivity {
         setContentView(R.layout.activity_course);
     }
     public void onClick1(View view){
+
         startActivity(new Intent("LearnedCourseActivity"));
     }
 }
