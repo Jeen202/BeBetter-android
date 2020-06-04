@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BeBetter-android</string>
+    <string name="desc" />
 </resources>
