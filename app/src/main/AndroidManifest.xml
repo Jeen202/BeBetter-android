@@ -25,6 +25,15 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LearnedCourseActivity"
+            android:label="LearnedCourseActivity">
+            <intent-filter>
+                <action android:name="LearnedCourseActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
