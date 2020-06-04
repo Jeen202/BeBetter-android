@@ -12,10 +12,35 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <EditText
+                    android:id="@+id/id_eidt"
+                    android:hint="用户名"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/password_edit"
+                    android:hint="密码"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/email_edit"
+                    android:hint="邮箱"
+                    android:layout_below="@+id/password_edit_1"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:id="@+id/register_do"
+                    android:layout_width="wrap_contnet"
+                    android:layout_height="wrap_content"
+                    android:onClick="click1"
+                    android:text="注册"/>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RegisterActivity" />
     </application>
 
 </manifest>
